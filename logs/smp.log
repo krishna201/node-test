@@ -1,0 +1,1325 @@
+| INFO | 31 Aug 17:39:35.97 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:39:35.97 : sql.js : 25 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Aug 17:39:35.97 : sql.js : 32 - [sql] connecting to: smp@192.168.43.242:5432 
+| INFO | 31 Aug 17:41:17.09 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '12345' ) RETURNING *  
+| INFO | 31 Aug 17:43:13.29 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:43:13.30 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:43:13.30 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:43:18.47 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '12345' ) RETURNING *  
+| INFO | 31 Aug 17:46:41.35 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:46:41.39 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:46:41.39 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:48:21.18 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:48:21.19 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:48:21.19 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:50:30.59 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:50:30.59 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:50:30.59 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:50:39.18 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '12345', '%s' ) RETURNING *  
+| INFO | 31 Aug 17:50:59.57 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:50:59.58 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:50:59.58 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:51:03.55 : sql.js : 44 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('krishna','362', '12345' ) RETURNING * 
+| INFO | 31 Aug 17:54:06.61 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:54:06.61 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:54:06.61 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:54:41.96 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:54:41.96 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:54:41.96 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:55:09.40 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:55:09.41 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:55:09.41 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:57:57.05 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:57:57.06 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:57:57.06 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:58:15.12 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:58:15.13 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:58:15.13 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:59:55.25 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 17:59:55.29 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 17:59:55.29 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:00:16.54 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:00:16.55 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:00:16.55 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:00:36.37 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:00:36.37 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:00:36.37 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:05:54.70 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:05:54.72 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:05:54.72 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:08:02.45 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:08:02.45 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:08:02.45 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:09:49.40 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:09:49.41 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:09:49.41 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:13:31.05 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:13:31.40 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:13:31.40 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:16:59.70 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:16:59.87 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:16:59.87 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:18:32.13 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:18:32.14 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:18:32.14 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:18:36.80 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' ) RETURNING *  
+| INFO | 31 Aug 18:20:16.95 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:20:16.95 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:20:16.96 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:20:21.38 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:20:40.58 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:20:40.58 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:20:40.58 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:20:44.33 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:21:05.69 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:21:05.69 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:21:05.69 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:21:09.55 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:21:56.65 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:21:56.66 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:21:56.66 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:22:00.37 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:27:28.41 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:27:28.42 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:27:28.42 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:33:12.55 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:33:12.56 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:33:12.56 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:33:20.37 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:33:55.60 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:33:55.61 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:33:55.61 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:34:00.63 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:34:30.91 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:34:30.92 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:34:30.92 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:34:36.57 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','362', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:34:36.57 : sql.js : 41 - [db] error: duplicate key value violates unique constraint "users_email_key"
+    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Aug 18:35:16.90 : sql.js : 44 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('krishna','test1@gmail.com', '21a5f9096ad4824948c452a1e4eb359a' ) 
+| INFO | 31 Aug 18:36:13.64 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:36:13.64 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:36:13.64 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:36:18.84 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','test1@gmail.com', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:36:18.84 : sql.js : 41 - [db] error: duplicate key value violates unique constraint "users_email_key"
+    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Aug 18:36:39.83 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:36:39.84 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:36:39.84 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:36:43.35 : sql.js : 40 - [db] INSERT INTO users (username, email, password) VALUES('krishna','test1@gmail.com', '21a5f9096ad4824948c452a1e4eb359a' )  
+| INFO | 31 Aug 18:36:43.35 : sql.js : 41 - [db] error: duplicate key value violates unique constraint "users_email_key"
+    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Aug 18:37:16.62 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:37:16.62 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:37:16.62 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:37:25.53 : sql.js : 44 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('krishna','test2@gmail.com', '22b6afb3a044c7b9a945771dff1327bb' ) 
+| INFO | 31 Aug 18:44:08.71 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:44:08.71 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:44:08.71 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:44:14.64 : sql.js : 40 - [db] SELECT * FROM users WHERE email = test2@gmail.com  
+| INFO | 31 Aug 18:44:14.64 : sql.js : 41 - [db] error: column "test2" does not exist
+    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23) 
+| INFO | 31 Aug 18:46:55.99 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:46:55.99 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:46:55.99 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:47:00.78 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
+| INFO | 31 Aug 18:48:32.40 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:48:32.40 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:48:32.40 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:48:37.43 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
+| INFO | 31 Aug 18:51:55.38 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:51:55.38 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:51:55.38 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:52:00.32 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
+| INFO | 31 Aug 18:53:10.69 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:53:10.69 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:53:10.69 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:53:14.94 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
+| INFO | 31 Aug 18:53:57.77 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:53:57.77 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:53:57.77 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:54:01.89 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
+| INFO | 31 Aug 18:55:05.93 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:55:05.93 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:55:05.93 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:55:12.77 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 18:56:00.19 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 18:56:00.20 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:56:00.20 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 18:56:03.94 : sql.js : 44 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:00:21.89 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:00:21.89 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:00:21.89 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:00:25.55 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:00:25.56 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:02:35.25 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:02:35.26 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:02:35.26 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:02:39.40 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:03:18.16 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:03:18.16 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:03:18.16 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:03:22.25 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:04:11.51 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:04:11.51 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:04:11.51 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:04:16.02 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:05:29.57 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:05:29.58 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:05:29.58 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:05:32.99 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:05:47.78 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:05:47.79 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:05:47.79 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:05:51.96 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:07:12.20 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:07:12.21 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:07:12.21 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:07:16.05 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:07:49.69 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'undefined' 
+| TRACE | 31 Aug 19:09:01.77 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'test1@gmai.com' 
+| TRACE | 31 Aug 19:09:40.77 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:09:48.98 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:10:17.50 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:10:34.54 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:14:02.19 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:14:02.20 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:14:02.20 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:14:06.45 : sql.js : 47 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('krishna','test1@gmail.com', '753ffa04ebf466bf55884866a30b596d' ) 
+| INFO | 31 Aug 19:15:49.42 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:15:49.42 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:15:49.42 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:15:58.78 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:38:50.59 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'test1@gmai.com' 
+| TRACE | 31 Aug 19:39:01.18 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 31 Aug 19:39:09.36 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 31 Aug 19:51:16.22 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:51:16.22 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:51:16.22 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:51:46.100 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:51:47.00 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:51:47.00 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:53:01.75 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:53:01.77 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:53:01.77 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:53:32.04 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 19:53:32.05 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 19:53:32.05 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 19:53:35.93 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 19:55:07.40 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 19:55:19.78 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 19:57:17.31 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 19:58:00.05 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:05:40.42 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:08:27.75 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:09:21.53 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:11:17.41 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:20:35.39 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:21:02.42 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:21:10.58 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:40:03.38 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:41:47.19 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:41:54.87 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:41:59.08 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 20:43:41.94 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 20:43:41.95 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 20:43:41.95 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 20:43:47.24 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:43:56.54 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 20:45:07.06 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 20:45:07.07 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 20:45:07.07 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 20:45:11.19 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:45:16.63 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:46:07.09 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:46:09.61 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:46:51.22 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 20:46:58.30 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:05:02.28 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 21:05:24.26 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:05:24.27 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:05:24.27 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:06:22.63 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:06:22.63 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:06:22.63 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:06:26.54 : sql.js : 43 - [query]  SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username username
+        OFFSET 0 LIMIT 2 
+| ERROR | 31 Aug 21:06:26.54 : sql.js : 44 - [db] {"message":"syntax error at or near \"username\"","stack":"error: syntax error at or near \"username\"\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 31 Aug 21:07:02.26 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:07:02.26 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:07:02.26 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:07:06.84 : sql.js : 43 - [query]  SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY 'username' 'username'
+        OFFSET '0' LIMIT '2' 
+| ERROR | 31 Aug 21:07:06.84 : sql.js : 44 - [db] {"message":"syntax error at or near \"'username'\"","stack":"error: syntax error at or near \"'username'\"\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 31 Aug 21:07:44.44 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:07:44.45 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:07:44.45 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:07:50.93 : sql.js : 43 - [query]  SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY 'username' 'ASC'
+        OFFSET '0' LIMIT '2' 
+| ERROR | 31 Aug 21:07:50.93 : sql.js : 44 - [db] {"message":"syntax error at or near \"'ASC'\"","stack":"error: syntax error at or near \"'ASC'\"\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 31 Aug 21:08:14.06 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:08:14.07 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:08:14.07 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:08:17.74 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:08:33.07 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:08:34.30 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name DESC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:08:35.25 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name 
+        OFFSET '0' LIMIT '2' 
+| INFO | 31 Aug 21:09:54.38 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:09:54.39 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:09:54.39 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:09:58.08 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:09:58.09 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:12:33.81 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:12:33.81 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:12:39.24 : sql.js : 43 - [query]  SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY  
+        OFFSET '2' LIMIT '2' 
+| ERROR | 31 Aug 21:12:39.24 : sql.js : 44 - [db] {"message":"syntax error at or near \"OFFSET\"","stack":"error: syntax error at or near \"OFFSET\"\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| TRACE | 31 Aug 21:15:23.22 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:15:23.23 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:15:25.88 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 21:15:25.88 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:15:27.21 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:15:27.21 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:15:28.60 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 21:15:28.61 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:15:29.79 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:15:29.79 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:15:45.88 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:15:45.88 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:02.08 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:02.08 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:25.95 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:25.96 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:26.80 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name DESC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:26.80 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:27.52 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:27.52 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:28.72 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:28.73 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:16:29.75 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY product_name DESC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:16:29.75 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:17:46.54 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:17:46.54 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:17:57.20 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:17:57.21 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:18:13.48 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:18:13.49 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:27:49.87 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:27:49.87 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:28:29.23 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:28:29.23 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:28:54.34 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:28:54.35 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:29:08.79 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:29:08.79 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:29:26.38 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:29:26.39 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:30:05.53 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:30:05.53 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:30:12.56 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:30:12.58 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:30:16.26 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:30:16.26 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:32:51.35 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:32:51.40 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:33:20.39 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:33:20.39 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 21:43:20.95 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:43:20.95 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:43:20.95 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:46:34.10 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:46:59.20 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:47:38.37 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:47:38.37 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:49:02.07 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:49:02.07 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:49:18.11 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:49:18.25 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| INFO | 31 Aug 21:50:33.64 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:50:33.64 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:50:33.64 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:50:38.33 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:50:38.33 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:50:40.06 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:50:40.16 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:53:57.07 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:53:57.08 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:53:59.28 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:53:59.43 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:54:51.12 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:54:51.12 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:54:52.31 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:54:52.44 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:55:18.57 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:55:18.57 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:55:19.95 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:55:20.09 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:55:56.05 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:55:56.06 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:55:58.54 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:55:58.67 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:56:25.40 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:56:25.49 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:56:56.52 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:56:56.53 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:56:58.33 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:56:58.46 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:57:33.59 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:57:33.59 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:57:37.72 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:57:37.83 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:58:13.13 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:58:13.14 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 21:58:16.93 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:58:17.05 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| INFO | 31 Aug 21:59:19.53 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 21:59:19.54 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 21:59:19.54 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 21:59:24.71 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 21:59:24.85 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 21:59:56.42 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 21:59:56.43 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:00:52.96 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:00:53.14 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:01:21.43 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:01:21.44 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:01:24.40 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:01:24.61 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:01:42.37 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:01:42.37 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:01:44.12 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:01:44.30 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:03:41.86 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:03:41.88 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:04:14.17 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:04:14.17 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 22:12:08.49 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:12:08.50 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:12:08.50 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:13:31.52 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:13:31.53 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:13:31.53 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:13:35.88 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:13:35.88 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:13:37.78 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:13:37.96 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:14:39.56 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:14:39.56 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 22:15:45.34 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:15:45.34 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:15:45.34 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:15:49.98 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:15:49.99 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:15:51.45 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:15:51.64 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:16:07.61 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:16:07.76 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM categories
+        
+| INFO | 31 Aug 22:17:00.32 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:17:00.33 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:17:00.33 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:17:39.35 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:17:39.35 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:17:39.35 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:18:14.58 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:18:14.58 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:18:14.58 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:19:01.36 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:19:01.36 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:19:01.36 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:19:06.86 : sql.js : 47 - [db] returned 1 rows | INSERT INTO categories (categoryname) VALUES('undefined' ) 
+| TRACE | 31 Aug 22:19:09.80 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:19:09.96 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| INFO | 31 Aug 22:20:08.03 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:20:08.03 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:20:08.03 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:20:15.68 : sql.js : 47 - [db] returned 1 rows | INSERT INTO categories (categoryname) VALUES('undefined' ) 
+| TRACE | 31 Aug 22:20:17.99 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:20:18.13 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:21:22.87 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:21:22.88 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 22:21:49.11 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:21:49.12 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:21:49.12 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:22:39.69 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:22:39.70 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:23:44.72 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:23:44.72 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:25:21.63 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:25:21.63 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:25:39.99 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:25:39.100 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:26:21.69 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:26:21.69 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:26:38.60 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:26:38.60 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 22:27:45.26 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:27:45.26 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:27:45.26 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:29:24.02 : sql.js : 47 - [db] returned 1 rows | INSERT INTO categories (categoryname) VALUES('laptop' ) 
+| TRACE | 31 Aug 22:29:28.94 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:29:28.96 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:29:30.21 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:29:30.39 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:29:44.87 : sql.js : 43 - [query]  INSERT INTO products (product_name) VALUES('hp', '17', '4' ) 
+| ERROR | 31 Aug 22:29:44.87 : sql.js : 44 - [db] {"message":"INSERT has more expressions than target columns","stack":"error: INSERT has more expressions than target columns\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| TRACE | 31 Aug 22:29:48.28 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:29:48.28 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:29:49.55 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:29:49.55 : sql.js : 47 - [db] returned 3 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 31 Aug 22:34:33.15 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:34:33.15 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:34:33.15 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:34:39.74 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:34:39.93 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:34:48.25 : sql.js : 43 - [query]  INSERT INTO products (product_name) VALUES('hp', '17', '4' ) 
+| ERROR | 31 Aug 22:34:48.25 : sql.js : 44 - [db] {"message":"INSERT has more expressions than target columns","stack":"error: INSERT has more expressions than target columns\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 31 Aug 22:35:13.81 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:35:13.82 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:35:13.82 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:35:17.75 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:35:17.93 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:35:26.61 : sql.js : 43 - [query]  INSERT INTO products (product_name) VALUES('hp', '17', '4' ) 
+| ERROR | 31 Aug 22:35:26.62 : sql.js : 44 - [db] {"message":"INSERT has more expressions than target columns","stack":"error: INSERT has more expressions than target columns\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 31 Aug 22:36:01.67 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 31 Aug 22:36:01.68 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 31 Aug 22:36:01.68 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 31 Aug 22:36:07.11 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:36:07.25 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:36:20.25 : sql.js : 47 - [db] returned 1 rows | INSERT INTO products (product_name,user_id,c_id) VALUES('hp', '17', '4' ) 
+| TRACE | 31 Aug 22:36:30.36 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:36:30.36 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:36:33.31 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:36:33.31 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:37:52.94 : sql.js : 47 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('test11','test11@gmai.com', '775af92639fbc64a1bfa1b7325c449d4' ) 
+| TRACE | 31 Aug 22:37:52.98 : sql.js : 43 - [query]  SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY undefined undefined
+        OFFSET 'NaN' LIMIT 'undefined' 
+| ERROR | 31 Aug 22:37:52.98 : sql.js : 44 - [db] {"message":"syntax error at or near \"undefined\"","stack":"error: syntax error at or near \"undefined\"\n    at Parser.parseErrorMessage (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/maniktech/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| TRACE | 31 Aug 22:37:57.41 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:37:57.59 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:38:03.92 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:38:04.09 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:40:27.06 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:40:27.07 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:43:40.01 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:43:40.01 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:45:35.79 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:45:35.80 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:46:19.13 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:46:19.13 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:46:26.01 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:46:26.02 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:48:34.32 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:48:34.33 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:48:35.98 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '4' LIMIT '2' 
+| TRACE | 31 Aug 22:48:35.98 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:48:40.92 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:48:40.92 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:52:01.07 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:52:01.07 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:52:09.85 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users
+        
+| TRACE | 31 Aug 22:52:10.02 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM categories
+        
+| TRACE | 31 Aug 22:52:41.94 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:52:41.95 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:52:52.39 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:52:52.39 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:53:17.60 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:53:17.61 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:54:56.60 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:54:56.61 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:55:01.08 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:55:01.08 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:55:09.08 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:55:09.08 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:56:40.62 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:56:40.64 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:56:59.36 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:56:59.36 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:19.49 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:57:19.49 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:27.07 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:57:27.08 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:33.42 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:57:33.43 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:47.82 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:57:47.82 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:50.78 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '4' LIMIT '2' 
+| TRACE | 31 Aug 22:57:50.78 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:55.13 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:57:55.13 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:58.34 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 31 Aug 22:57:58.34 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:57:59.51 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 31 Aug 22:57:59.51 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 31 Aug 22:58:00.19 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '4' LIMIT '2' 
+| TRACE | 31 Aug 22:58:00.20 : sql.js : 47 - [db] returned 5 rows | SELECT * FROM users as users
+        LEFT JOIN products AS prod ON prod.user_id = users.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 01 Sep 08:04:31.41 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:04:31.42 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:04:31.42 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:04:46.30 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 08:04:46.30 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 01 Sep 08:04:48.41 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '2' LIMIT '2' 
+| TRACE | 01 Sep 08:04:48.41 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 01 Sep 08:04:49.80 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 08:04:49.80 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 01 Sep 08:07:02.19 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:07:02.19 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:07:02.19 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:12:24.27 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:12:24.28 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:12:24.28 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:12:30.21 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'test1@gmai.com' 
+| INFO | 01 Sep 08:12:57.04 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:12:57.04 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:12:57.05 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:13:03.57 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 08:13:11.24 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 08:13:19.70 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 08:13:39.37 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 08:14:41.28 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 01 Sep 08:18:51.84 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:18:51.84 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:18:51.84 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:18:54.70 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 01 Sep 08:19:57.34 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:19:57.34 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:19:57.34 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:20:00.94 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 01 Sep 08:22:07.06 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:22:07.07 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:22:07.07 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:22:12.86 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 01 Sep 08:22:58.22 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:22:58.22 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:22:58.23 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:23:03.07 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| INFO | 01 Sep 08:24:26.68 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:24:26.68 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:24:26.68 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 08:24:32.41 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 08:24:32.50 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=17 
+| TRACE | 01 Sep 08:24:32.51 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 08:24:32.53 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 01 Sep 08:25:09.42 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=17 
+| TRACE | 01 Sep 08:25:09.45 : sql.js : 47 - [db] returned 1 rows | INSERT INTO users (username, email, password) VALUES('new1','new1@gmail.com', '0ce83e42bef55c838cfdaaa60bd9616f' ) 
+| TRACE | 01 Sep 08:25:41.82 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'new1@gmail.com' 
+| TRACE | 01 Sep 08:25:41.88 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=19 
+| TRACE | 01 Sep 08:25:41.89 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 08:25:41.89 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 01 Sep 08:52:10.71 : logger.service.js : 31 - [logger] log path: /home/astics/test/maniktech/node-backend/logs/smp.log 
+| INFO | 01 Sep 08:52:10.72 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 01 Sep 08:52:10.72 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 01 Sep 09:34:01.17 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'new1@gmail.com' 
+| TRACE | 01 Sep 09:34:01.50 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=19 
+| TRACE | 01 Sep 09:34:01.51 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 09:34:01.51 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| TRACE | 01 Sep 09:34:13.35 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 01 Sep 09:34:13.42 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=17 
+| TRACE | 01 Sep 09:34:13.44 : sql.js : 47 - [db] returned 2 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id
+        ORDER BY username ASC
+        OFFSET '0' LIMIT '2' 
+| TRACE | 01 Sep 09:34:13.44 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
+        LEFT JOIN users as users ON users.user_id = prod.user_id 
+        LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
