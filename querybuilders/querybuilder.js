@@ -19,7 +19,7 @@ module.exports = {
     return util.format(` select *, coalesce((SELECT jsonb_agg(categories) 
         FROM  (SELECT cat.*
                 FROM   categories as cat 
-               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+               WHERE  cat.c_id = SOME(art.c_ids)) categories), '[]'::jsonb) AS categories 
                 from articles as art
  left join users as users on users.user_id = art.user_id ORDER BY ${data.orderBy} ${data.sortBy}
  OFFSET '${data.offset}' LIMIT '${data.pageSize}'`);
@@ -28,7 +28,7 @@ module.exports = {
     return util.format(`select *, coalesce((SELECT jsonb_agg(categories) 
         FROM  (SELECT cat.*
                 FROM   categories as cat 
-               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+               WHERE  cat.c_id = SOME(art.c_ids)) categories), '[]'::jsonb) AS categories 
                 from articles as art
  left join users as users on users.user_id = art.user_id`);
   },
