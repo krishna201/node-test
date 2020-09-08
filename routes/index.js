@@ -9,4 +9,5 @@ app.route('/user/category/get').get(user_controller.getCategoryList);
 app.route('/category/add').post(user_controller.addCategoryFunc);
 app.route('/article/add').post(user_controller.addArticleFunc);
 app.route('/user/users/get').get(user_controller.getUserList);
+app.route('/article/getFilterBYCategory').post(user_controller.getFilterBYCategory);
 module.exports = app;

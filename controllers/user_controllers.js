@@ -48,14 +48,62 @@ class User_controller {
   getArticleDataList = async (req, res) => {
     try {
       const reqData = req.body;
+      let query = ``;
+      const { current, pageSize } = reqData;
+      if (reqData.cat_name) {
+        query = `categ.categoryname='${reqData.cat_name}'`;
+      }
+      if (reqData.orderBy&&!reqData.cat_name) {
+        query = `ORDER BY ${reqData.orderBy} ${reqData.sortBy?reqData.sortBy:"ASC"}`;
+      }
+      if (current && pageSize) {
+        reqData.offset = Number(reqData.current - 1) * Number(reqData.pageSize);
+        if(query){
+          query = `${query} OFFSET '${reqData.offset}' LIMIT '${reqData.pageSize}'`;
+        } else{
+          query = `OFFSET '${reqData.offset}' LIMIT '${reqData.pageSize}'`;
+
+        }
+      }
+
+      if (reqData.cat_name) {
+        const resultdata = await db.executeQuery(
+          queryBuiler.getArticleListingbyCateg(query)
+        );
+        const countData = await db.executeQuery(
+          queryBuiler.getArticleListingbyCatCount(reqData)
+        );
+
+        return res.json({
+          status: 1,
+          data: resultdata,
+          count: countData.length,
+        });
+      }
+      const resultdata = await db.executeQuery(
+        queryBuiler.getArticleListing(query)
+      );
+      const countData = await db.executeQuery(
+        queryBuiler.getArticlecount()
+      );
+
+      res.json({ status: 1, data: resultdata, count: countData.length });
+    } catch (error) {
+      console.log(error);
+      res.json({ status: 0, msg: "Something error" });
+    }
+  };
+  getFilterBYCategory = async (req, res) => {
+    try {
+      const reqData = req.body;
       reqData.offset = Number(reqData.current - 1) * Number(reqData.pageSize);
       console.log(reqData);
       // const resultdata=await db.executeQuery(queryBuiler.getProductListing(reqData))
       const resultdata = await db.executeQuery(
-        queryBuiler.getArticleListing(reqData)
+        queryBuiler.getArticleListingbyCat(reqData)
       );
       const countData = await db.executeQuery(
-        queryBuiler.getArticlecount(reqData)
+        queryBuiler.getArticleListingbyCatCount(reqData)
       );
 
       res.json({ status: 1, data: resultdata, count: countData.length });
