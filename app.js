@@ -21,6 +21,9 @@ app.use(async (req, res, next) =>{
     if(req.url==='/user/login'){
       return next()
     }
+    if(req.url==='/user/add'){
+      return next()
+    }
     const verifyData =await helper.jwtTokenVerify(req, res, next )
     if(verifyData){
       return next()

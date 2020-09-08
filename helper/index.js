@@ -17,12 +17,26 @@ module.exports = {
   jwtTokenVerify: async (req, res, next) => {
     try {
       let token = req.headers.token;
+      console.log("token",token)
       var decoded = jwt.verify(token, "secret");
       const params = {
         user_id:decoded.id
       }
       const resultdata=await db.executeQuery(queryBuiler.getUser(params))
       if (resultdata && resultdata.length) {
+        return true;
+      }
+      return false;
+    } catch (error) {
+      return false;
+    }
+  },
+  checkAcccess: async (reqData) => {
+    try {
+     
+      const resultdata=await db.executeQuery(queryBuiler.getUser(reqData))
+      console.log(resultdata)
+      if (resultdata && resultdata.length&&resultdata[0].user_type===1) {
         return true;
       }
       return false;

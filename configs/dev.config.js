@@ -8,6 +8,7 @@ const config = {
         username: 'postgres',
         password: 'GuestlineDb123#$',
         host: `192.168.43.242`, //'192.168.43.128',
+        // host: `192.168.43.190`, //'192.168.43.128',
         port: 5432
     },
 };

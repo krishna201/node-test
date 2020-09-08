@@ -1323,3 +1323,254 @@
 | TRACE | 01 Sep 09:34:13.44 : sql.js : 47 - [db] returned 4 rows | SELECT * FROM products AS prod 
         LEFT JOIN users as users ON users.user_id = prod.user_id 
         LEFT JOIN categories AS cat ON cat.c_id = prod.c_id 
+| INFO | 07 Sep 19:30:12.25 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 19:30:12.30 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 19:30:12.30 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 19:30:53.83 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 19:30:53.84 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 19:30:53.84 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 19:33:33.07 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 19:33:33.07 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 19:33:33.07 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 19:33:42.96 : sql.js : 43 - [query]  INSERT INTO users (username, email, password, user_type) VALUES('krishna1','test1@gmail.com1', '18adef8e1b633556902d04c0fc6ee315' ) 1 
+| ERROR | 07 Sep 19:33:42.96 : sql.js : 44 - [db] {"message":"syntax error at or near \"1\"","stack":"error: syntax error at or near \"1\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 19:34:33.01 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 19:34:33.01 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 19:34:33.01 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 19:34:39.49 : sql.js : 47 - [db] returned 1 rows | INSERT INTO users (username, email, password, user_type) VALUES('krishna1','test1@gmail.com1', '18adef8e1b633556902d04c0fc6ee315','1' ) 
+| TRACE | 07 Sep 20:11:34.51 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com1' 
+| TRACE | 07 Sep 20:12:14.92 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:12:42.24 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 20:13:43.33 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:13:43.33 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:13:43.33 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:13:48.63 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 20:16:38.31 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:16:38.32 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:16:38.32 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:16:46.44 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:16:46.45 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_id) VALUES('krishna1','testsdfsdfsdfsdf', '1', '1' ) 
+| ERROR | 07 Sep 20:16:46.45 : sql.js : 44 - [db] {"message":"column \"c_id\" of relation \"articles\" does not exist","stack":"error: column \"c_id\" of relation \"articles\" does not exist\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:17:43.66 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:17:43.67 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:17:43.67 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:17:48.35 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:17:48.36 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '1', '1' ) 
+| ERROR | 07 Sep 20:17:48.36 : sql.js : 44 - [db] {"message":"malformed array literal: \"1\"","stack":"error: malformed array literal: \"1\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:20:23.80 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:20:23.80 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:20:23.81 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:20:29.69 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:20:29.69 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '1', '[]int' ) [ 1 ] 
+| ERROR | 07 Sep 20:20:29.69 : sql.js : 44 - [db] {"message":"syntax error at or near \"[\"","stack":"error: syntax error at or near \"[\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:29:45.45 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:29:45.45 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:29:45.45 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:29:49.51 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:29:49.51 : sql.js : 43 - [query]  INSERT INTO articles(title,description,user_id,c_ids)
+        VALUES(krishna1, $tkn$testsdfsdfsdfsdf$tkn$, $tkn$1$tkn$, $tkn$1$tkn$) RETURNING * 
+| ERROR | 07 Sep 20:29:49.51 : sql.js : 44 - [db] {"message":"column \"krishna1\" does not exist","stack":"error: column \"krishna1\" does not exist\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:30:43.36 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:30:43.36 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:30:43.36 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:30:47.19 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:30:47.20 : sql.js : 43 - [query]  INSERT INTO articles(title,description,user_id,c_ids)
+        VALUES($tkn$krishna1$tkn$, $tkn$testsdfsdfsdfsdf$tkn$, $tkn$1$tkn$, $tkn$1$tkn$) RETURNING * 
+| ERROR | 07 Sep 20:30:47.20 : sql.js : 44 - [db] {"message":"malformed array literal: \"1\"","stack":"error: malformed array literal: \"1\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:46:32.81 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:46:32.82 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:46:32.82 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:46:38.84 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:46:38.84 : sql.js : 43 - [query]  INSERT INTO articles(title,description,user_id,c_ids)
+        VALUES($tkn$krishna1$tkn$, $tkn$testsdfsdfsdfsdf$tkn$, $tkn$1$tkn$, 1) RETURNING * 
+| ERROR | 07 Sep 20:46:38.84 : sql.js : 44 - [db] {"message":"column \"c_ids\" is of type integer[] but expression is of type integer","stack":"error: column \"c_ids\" is of type integer[] but expression is of type integer\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:49:34.82 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:49:34.82 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:49:34.83 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:49:40.34 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:49:40.35 : sql.js : 43 - [query]  INSERT INTO articles(title,description,user_id,c_ids)
+        VALUES($tkn$krishna1$tkn$, $tkn$testsdfsdfsdfsdf$tkn$, $tkn$1$tkn$, 1) RETURNING * 
+| ERROR | 07 Sep 20:49:40.35 : sql.js : 44 - [db] {"message":"column \"c_ids\" is of type integer[] but expression is of type integer","stack":"error: column \"c_ids\" is of type integer[] but expression is of type integer\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:51:10.55 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:51:10.55 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:51:10.56 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:51:15.44 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:51:15.45 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '1', '1' ) 
+| ERROR | 07 Sep 20:51:15.45 : sql.js : 44 - [db] {"message":"malformed array literal: \"1\"","stack":"error: malformed array literal: \"1\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:52:04.74 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:52:04.75 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:52:04.75 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:52:11.14 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:52:11.15 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '1',  '{1} ) 
+| ERROR | 07 Sep 20:52:11.15 : sql.js : 44 - [db] {"message":"unterminated quoted string at or near \"'{1} )\"","stack":"error: unterminated quoted string at or near \"'{1} )\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 20:52:30.57 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:52:30.57 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:52:30.57 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:52:34.13 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:52:34.14 : sql.js : 43 - [query]  INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '1',  '{1}' ) 
+| ERROR | 07 Sep 20:52:34.14 : sql.js : 44 - [db] {"message":"insert or update on table \"articles\" violates foreign key constraint \"articles_user_id_fkey\"","stack":"error: insert or update on table \"articles\" violates foreign key constraint \"articles_user_id_fkey\"\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| TRACE | 07 Sep 20:53:33.32 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:53:33.35 : sql.js : 47 - [db] returned 1 rows | INSERT INTO articles (title,description,user_id,c_ids) VALUES('krishna1','testsdfsdfsdfsdf', '20',  '{1}' ) 
+| INFO | 07 Sep 20:58:53.29 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 20:58:53.29 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 20:58:53.30 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 20:59:01.08 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 20:59:01.08 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 21:04:35.60 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:04:35.61 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:04:35.61 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:04:41.44 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:04:41.45 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:05:02.24 : sql.js : 47 - [db] returned 1 rows | INSERT INTO users (username, email, password, user_type) VALUES('test2','test2@gmail.com', '48e1c7d4175291db0ed92771a8a37a95','2' ) 
+| TRACE | 07 Sep 21:05:35.82 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:05:35.82 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=21 
+| INFO | 07 Sep 21:05:54.52 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:05:54.53 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:05:54.53 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:05:57.34 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:05:57.35 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=21 
+| INFO | 07 Sep 21:06:27.16 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:06:27.16 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:06:27.16 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:06:30.65 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:06:30.66 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=21 
+| INFO | 07 Sep 21:07:23.85 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:07:23.86 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:07:23.86 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:07:27.80 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:07:27.82 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=21 
+| INFO | 07 Sep 21:09:06.24 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:09:06.24 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:09:06.24 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:09:09.60 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:09:09.61 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=21 
+| TRACE | 07 Sep 21:21:09.33 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:21:09.35 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE user_id=22 
+| TRACE | 07 Sep 21:21:41.66 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:21:41.66 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 21:23:28.37 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:23:28.38 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:23:28.38 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:23:33.30 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:23:33.30 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:23:33.33 : sql.js : 47 - [db] returned 1 rows | INSERT INTO articles (title,description,user_id,c_ids) VALUES('now project','testsdfsdfsdfsdf', '20',  '{1,2}' ) 
+| TRACE | 07 Sep 21:27:13.90 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:27:13.91 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:27:13.92 : sql.js : 47 - [db] returned 1 rows | INSERT INTO articles (title,description,user_id,c_ids) VALUES('now project','testsdfsdfsdfsdf', '20',  '{1,4}' ) 
+| INFO | 07 Sep 21:47:12.35 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:47:12.35 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:47:12.35 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:47:55.62 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:47:55.62 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:47:55.62 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:50:04.53 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 21:50:47.69 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:50:47.69 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:50:47.69 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:50:51.20 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:50:51.20 : sql.js : 47 - [db] returned 3 rows |  select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id  IN(1,4)) categories), '[]'::jsonb) AS categories  from articles as art
+ left join users as users on users.user_id = art.user_id 
+| INFO | 07 Sep 21:53:30.25 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:53:30.26 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:53:30.26 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:53:37.02 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 21:53:37.03 : sql.js : 43 - [query]   select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id  IN(art.c_ids)) categories), '[]'::jsonb) AS categories  from articles as art
+ left join users as users on users.user_id = art.user_id 
+| ERROR | 07 Sep 21:53:37.03 : sql.js : 44 - [db] {"message":"operator does not exist: integer = integer[]","stack":"error: operator does not exist: integer = integer[]\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 21:54:59.18 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:54:59.19 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:54:59.19 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:55:02.62 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 21:56:16.77 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 21:56:16.78 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 21:56:16.78 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 21:56:18.76 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| INFO | 07 Sep 22:00:45.54 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 22:00:45.55 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 22:00:45.55 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 22:00:49.53 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 22:00:49.54 : sql.js : 47 - [db] returned 3 rows |  select art.*, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id  =any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id 
+| INFO | 07 Sep 22:01:14.55 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 22:01:14.56 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 22:01:14.56 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| TRACE | 07 Sep 22:01:18.28 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 22:01:18.29 : sql.js : 43 - [query]   select art.*, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id  IN(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id 
+| ERROR | 07 Sep 22:01:18.29 : sql.js : 44 - [db] {"message":"operator does not exist: integer = integer[]","stack":"error: operator does not exist: integer = integer[]\n    at Parser.parseErrorMessage (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:278:15)\n    at Parser.handlePacket (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/home/astics/test/solutabes/node-backend/node_modules/pg-protocol/dist/index.js:8:42)\n    at Socket.emit (events.js:311:20)\n    at addChunk (_stream_readable.js:294:12)\n    at readableAddChunk (_stream_readable.js:275:11)\n    at Socket.Readable.push (_stream_readable.js:209:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)","name":"error"} 
+| INFO | 07 Sep 22:50:59.61 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 22:50:59.62 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 22:50:59.62 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.190:5432 
+| INFO | 07 Sep 22:52:06.96 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 22:52:06.97 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 22:52:06.97 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 07 Sep 22:52:17.53 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 22:52:17.54 : sql.js : 47 - [db] returned 3 rows |  select art.*, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id 
+| TRACE | 07 Sep 22:52:48.55 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 07 Sep 22:52:58.00 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test1@gmail.com1' 
+| INFO | 07 Sep 22:57:45.47 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 22:57:45.48 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 22:57:45.48 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 07 Sep 22:59:38.97 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 22:59:38.98 : sql.js : 47 - [db] returned 3 rows |  select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id ORDER BY username ASC 
+| TRACE | 07 Sep 23:02:02.36 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 23:02:02.37 : sql.js : 47 - [db] returned 3 rows |  select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id ORDER BY username ASC 
+| INFO | 07 Sep 23:02:14.59 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 23:02:14.59 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 23:02:14.59 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 07 Sep 23:02:22.99 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 23:02:23.03 : sql.js : 47 - [db] returned 2 rows |  select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id ORDER BY username ASC
+ OFFSET '0' LIMIT '2' 
+| INFO | 07 Sep 23:04:45.94 : logger.service.js : 31 - [logger] log path: /home/astics/test/solutabes/node-backend/logs/smp.log 
+| INFO | 07 Sep 23:04:45.94 : sql.js : 25 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| INFO | 07 Sep 23:04:45.95 : sql.js : 32 - [sql] connecting to: newtestdb@192.168.43.242:5432 
+| TRACE | 07 Sep 23:04:53.56 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE user_id=20 
+| TRACE | 07 Sep 23:04:53.56 : sql.js : 47 - [db] returned 2 rows |  select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id ORDER BY username ASC
+ OFFSET '0' LIMIT '2' 
+| TRACE | 07 Sep 23:04:53.56 : sql.js : 47 - [db] returned 3 rows | select *, coalesce((SELECT jsonb_agg(categories) 
+        FROM  (SELECT cat.*
+                FROM   categories as cat 
+               WHERE  cat.c_id = any(art.c_ids)) categories), '[]'::jsonb) AS categories 
+                from articles as art
+ left join users as users on users.user_id = art.user_id 
+| TRACE | 07 Sep 23:21:09.89 : sql.js : 47 - [db] returned 0 rows | SELECT * FROM users WHERE email = 'test1@gmail.com' 
+| TRACE | 07 Sep 23:21:15.74 : sql.js : 47 - [db] returned 1 rows | SELECT * FROM users WHERE email = 'test2@gmail.com' 
