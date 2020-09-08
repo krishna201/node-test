@@ -96,9 +96,11 @@ class User_controller {
   getFilterBYCategory = async (req, res) => {
     try {
       const reqData = req.body;
+      if(!reqData.current || !reqData.pageSize){
+        res.json({ status: 0, msg: "Paras missing" });
+      }
       reqData.offset = Number(reqData.current - 1) * Number(reqData.pageSize);
       console.log(reqData);
-      // const resultdata=await db.executeQuery(queryBuiler.getProductListing(reqData))
       const resultdata = await db.executeQuery(
         queryBuiler.getArticleListingbyCat(reqData)
       );
